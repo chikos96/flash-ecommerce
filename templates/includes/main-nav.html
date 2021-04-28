@@ -16,7 +16,7 @@
                 Canon
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="canon-link">
-                <a href="" class="dropdown-item">Canon</a>
+                <a href="{% url 'products' %}?category=Canon" class="dropdown-item">Canon</a>
             </div>
         </li>
 
@@ -25,7 +25,7 @@
                Sony
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="sony-link">
-                <a href="" class="dropdown-item">Sony</a>
+                <a href="{% url 'products' %}?category=Sony" class="dropdown-item">Sony</a>
             </div>
         </li>
 
@@ -33,8 +33,8 @@
             <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="nikon-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                Nikon
             </a>
-            <div class="dropdown-menu border-0" aria-labelledby="nikon-link>
-                <a href="" class="dropdown-item">Nikon</a>
+            <div class="dropdown-menu border-0" aria-labelledby="nikon-link">
+                <a href="{% url 'products' %}?category=Nikon" class="dropdown-item">Nikon</a>
             </div>
         </li>
 
@@ -43,7 +43,7 @@
                 Fujifilm
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="fujifilm-link">
-                <a href="" class="dropdown-item">Fujifilm</a>
+                <a href="{% url 'products' %}?category=Fujifilm" class="dropdown-item">Fujifilm</a>
             </div>
         </li>
     </ul>
