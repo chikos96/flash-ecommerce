@@ -54,21 +54,54 @@ the schematics for the ideal project:
 
 
 
-### Home
+# Home Page
+- The home page offers five nav bars to take users to relevant sections. It contains full-width appealing Hero Image Heading Caption with a call-to-action button which take users straight to product listing.
 
+# User Account
+- This provides interface for new users to register, then sign into already created account. The creation of the account requires a valid email and a password. Account owners can access the following features:
+- Update profile information
+- View order history
+- Review purchased product
 
-### Profile
-- The Profile section features exclusively for a user session. 
-  All collections per user are stored in their respective profile Page and secure to only be available to the owner.
+# Shopping Bag
+- The shopping bag populates all purchased product details, subtotal for items purchased and a grand total.
+- Users can remove items from the shopping bag and update quantities before checkout.
+- Thereafter users have the option to continue shopping or proceed to payment.
 
-### Add New Contact
-- This section will have the form where the user will put theur contacts full name, telephone and email.
+# Search bar
+- The Search functionality is present on all pages to enable users narrow down their search.
+# Product Listing
+- The product listing is structured to offer users multiple search criteria and quicker access to specific products.
+- Product listing can be sorted by Category, Name, Price, and Rating.
+- This can be done either in ascending or descending order.
 
-### Security
-- To make the user authentication more secure, the Log In form integrates werkzeug security features namely:
-"generate_password_hash" and "check_password_hash". it is difficult to crack the passwords.
+# Product View
+- The product view populates the product details such as:
+- Product name
+- Category
+- Image
+- Price
+- Rating
+- Size adjustment
+- Quantity increment/decrement functionality
+- Add to bag and Keep Shopping buttons
 
-## Features Left to Implement
+# Checkout
+- Checkout allow users to enter their delivery and payment details initially.
+- The checkout details and delivery information are pre-filled with the information provided in the user's profile which can also be edited.
+- A summary of the order is populated on the checkout page
+- Users also have the option to adjust their bag before completion of order
+- Payment is made by card using Stripe
+
+# Administrator features
+- The administrator has the sole right to product management section
+- An administrator can edit or delete a product to get users updated and engaged.
+
+# Features Left to implement
+- Add s3 to django.
+- Add AWS to django.
+- More media
+- Add another custom model
 
 
 # Technologies Used
@@ -98,8 +131,6 @@ the schematics for the ideal project:
     - To validate my HTML code.
 - [CSS Validator](https://jigsaw.w3.org/css-validator/)
     - To validate my CSS code.
-- [drawio](https://app.diagrams.net/)
-    - Used to create the database schema and data manipulation operations diagrams.
 - [dbdiagramio](https://dbdiagram.io/home)
     - Used to create the database schema diagram online.
 - [font awesome](https://fontawesome.com/)
@@ -116,7 +147,7 @@ the schematics for the ideal project:
 
 I used Chrome DevTools lighthouse to test the app to see how is it functioning well.
 
-[Screenshot of lighthous testing](/workspace/contact-app-project/images/ligthouse-devtools-screenshot.png)
+[Screenshot of lighthous testing]()
 
 # Testing User Stories from User Experience (UX) Section
 
@@ -126,9 +157,6 @@ I used Chrome DevTools lighthouse to test the app to see how is it functioning w
   - The user will see the Register form for first time user to sign up.
   - Also the user will be able to log in at the Log in form if their account is already created.
   - The user can log out at the Log Out form if they want to leave their account.
-  - For security measures, the form will have the werkzeug security features such as 
-    "generate_password_hash" and "check_password_hash". These hashing passwords will be good to keep their 
-    information secured.
 
 2. As a first time user, I want to navigate easily in order to find the content and be able to see my contacts.
     - At the top of each page there is a clean navigation bar, each link describes at what section 
@@ -209,8 +237,6 @@ Here are the following steps to take when to deploy using Heroku:
 - Add the key of "IP" and the value of "0.0.0.0", and click on Add.
 - Add the key of "PORT" and the value of "5000", then click Add.
 - Add the key of "SECRET_KEY" and the value of "your secret key string here", then click Add.
-- Add the key of "MONGO_URI" and the value of "mongo URI string here"
-- Finally, add the key of "MONGO_DBNAME" and the value of "the name of your database here".
 
 5. Setting-up Automatic Deployment from GitHub
 - Click Deploy on the dashboard.
@@ -231,5 +257,5 @@ different. I made some modifications to definitely fit my needs.
 
 ### Acknowledgements
 
-- I would like to thank Aaron for helping and supporting me with this project.
+- I would like to thank Aaron for helping and supporting me with this final project.
 - I would like to thank the Tutor Support for their maximum effort to assist me.
