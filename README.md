@@ -1,13 +1,12 @@
-# Contact-App-Project
+# Flash E-Commerce
 
-For my third milestone project, I have decided to create a contact app for users so that they get to keep their information 
-about his or her contact. The application is created to ensure that users are able to create, edit, update and delete their 
-contacts. This is to address the information Architecture for processing, storing, retrieving and updating data.
+Flash is an ecommerce website that allows customers to buy the best quality of cameras that they can get. It is an
+upcoming business that will benefit customers to buy the camera they need in their everydat lives.
  
 # UX
 
 ## UX Design
-The main color scheme for the project was mainly green and white background. It also consists of
+The main color scheme for the project was mainly white and a nice background. It also consists of
 black text so that the users can easily see their contacts. Also the navigation is placed orderly
 to provide user experience better.
 
@@ -17,8 +16,8 @@ to provide user experience better.
 - As a first time user, I would like to create my own account with the option to login and logout 
   so nobody else can access it.
 - As a first time user, I want to navigate easily in order to find the content and be able to see my contacts.
-- As a user, i want to add my contact.
-- As a user, i want to edit or delete my contact.
+- As a user, i want to buy my product.
+- As a user, i want to edit or delete my product.
 
 ### Owner
 - As a owner, I want my users to be able to have access to their contacts
@@ -32,13 +31,12 @@ to provide user experience better.
 I used Balsamiq to create the Wireframe for the project. This Wireframe contains
 the schematics for the ideal project:
 
-[Link to the Final Version of the Wireframe]()
+[Final Version of the Wireframe](/workspace/flash-ecommerce/wireframe/wireframe.pdf)
 
 ## Data schema
 
 
-[Database Schema](/workspace/contact-app-project/database-designs/database-model-design.png)
-
+[Database Schema](/workspace/flash-ecommerce/image/data_schema.png)
 
 # Features
 
@@ -46,22 +44,20 @@ the schematics for the ideal project:
 
 ### Structure
 
-
 ### Forms
 - Register form: This provides interface to new users for sign up.
 
 - Log In form: form that enable users to sign into already created account.
 
-
-
 # Home Page
 - The home page offers five nav bars to take users to relevant sections. It contains full-width appealing Hero Image Heading Caption with a call-to-action button which take users straight to product listing.
 
 # User Account
-- This provides interface for new users to register, then sign into already created account. The creation of the account requires a valid email and a password. Account owners can access the following features:
-- Update profile information
-- View order history
-- Review purchased product
+- This provides interface for new users to register and sign into already created account. 
+- The creation of the account requires a valid email and a password. Account owners can access the following features:
+    - Update profile information
+    - View order history
+    - Review purchased product
 
 # Shopping Bag
 - The shopping bag populates all purchased product details, subtotal for items purchased and a grand total.
@@ -111,7 +107,7 @@ the schematics for the ideal project:
 - [CSS](https://www.w3schools.com/css/)
 - [Javascript](https://www.w3schools.com/js/DEFAULT.asp)
 - [Python](https://www.python.org/)
-- [django]
+- [django](https://www.djangoproject.com/)
 
 ## Tools and Libraries
 - [Materialize](https://materializecss.com/)
@@ -196,7 +192,6 @@ if the form is not complete or incorrect.
 - The button links works as expected.
 - To prevent arbitrary code from running and security flaw, after the development stage, 
   I specify the debug=False before submission.
-- I have tested my with my IPhone and IPad.
 
 # Deployment
 
