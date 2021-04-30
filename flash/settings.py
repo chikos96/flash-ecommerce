@@ -27,7 +27,7 @@ SECRET_KEY = 'django-insecure-uek9_@c35c9ahasur3f7h3v3^w0pwmrvr&^6zt=9&qp6*qu1))
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['chikos-flash-ecommerce.herokuapp.com', 'localhost']
+ALLOWED_HOSTS = ['chikos96-flash-ecommerce.herokuapp.com', 'localhost']
 
 
 # Application definition
